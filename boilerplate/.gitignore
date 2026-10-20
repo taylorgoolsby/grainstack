@@ -1,0 +1,18 @@
+node_modules/
+.next/
+next-env.d.ts
+tsconfig.tsbuildinfo
+
+# Secrets: never commit these
+.env.local
+.env.deploy
+# Variables for your deployed functions. They often hold API keys, so they are ignored by default.
+# Remove these two lines if you keep only non-secret settings there and want them in git.
+.env.dev
+.env.prod
+
+# Build and deploy artifacts
+lambda-pkg/
+lambda.zip
+.deployed-*-version
+.DS_Store
